@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+/* Color Theme Swatches in Hex */
+.ad-hoc-land №1-1-hex { color: #262521; }
+.ad-hoc-land №1-2-hex { color: #59554D; }
+.ad-hoc-land №1-3-hex { color: #8C8984; }
+.ad-hoc-land №1-4-hex { color: #D9D0C5; }
+.ad-hoc-land №1-5-hex { color: #BFB8AE; }
+
+/* Color Theme Swatches in RGBA */
+.ad-hoc-land №1-1-rgba { color: rgba(38, 37, 33, 1); }
+.ad-hoc-land №1-2-rgba { color: rgba(89, 85, 77, 1); }
+.ad-hoc-land №1-3-rgba { color: rgba(140, 137, 132, 1); }
+.ad-hoc-land №1-4-rgba { color: rgba(217, 208, 197, 1); }
+.ad-hoc-land №1-5-rgba { color: rgba(191, 184, 174, 1); }
+
+/* Color Theme Swatches in HSLA */
+.ad-hoc-land №1-1-hsla { color: hsla(48, 7, 13, 1); }
+.ad-hoc-land №1-2-hsla { color: hsla(40, 7, 32, 1); }
+.ad-hoc-land №1-3-hsla { color: hsla(37, 3, 53, 1); }
+.ad-hoc-land №1-4-hsla { color: hsla(32, 20, 81, 1); }
+.ad-hoc-land №1-5-hsla { color: hsla(35, 11, 71, 1); }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    
+}
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 40px;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    display: -webkit-flex;
+	display: flex;
+    clear: both;
+	content: '';
+    
+    background-color: #262521;
+}
+.headericon {
+    
+    color: #8C8984;
+    width: 40px;
+    height: 40px;
+    /* transition: 0.5s; */
+    
+}
+.navicon{
+    margin-top: 15px;
+    color: #8C8984;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    
+}
+.navicon:hover{
+    border-radius: 6px;
+    background-color: #BFB8AE;
+    transition: 0.5s;
+}
+.mypage{
+    position: relative;
+    position: left;
+    display: -webkit-flex;
+	display: flex;
+}
+
+.login{
+    font-size: 14px;
+    text-decoration: underline;
+	/* line-height: 21px; */
+	/* vertical-align: middle; */
+}
+
+nav{
+    
+    /* -webkit-justify-content: space-evenly;
+	justify-content: space-evenly; */
+	flex-direction: column;
+    display: -webkit-flex;
+    z-index: 1;
+    background-color: #262521;
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    
+}
+
+.tom{
+    width: 30px;
+    height: 70px;
+}
+.body{
+    
+    padding-top: 50px;
+    padding-left: 45px;
+}
